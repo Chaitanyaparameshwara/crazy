@@ -6,6 +6,8 @@ public class reverse {
 	
 public static void main(String[] args) {
 			// TODO Auto-generated method stub
+	
+	//comment
 			Scanner sc=new Scanner(System.in);
 			String str=sc.nextLine();
 			int j=str.length()-1;
