@@ -30,4 +30,13 @@ public class IndividualResource {
 	 
 	}
 	
+	@POST
+	@Path("i/add")
+	public Individual create(Individual i)
+	{
+		System.out.println(i);
+		in.create(i);
+		return i;
+	}
+	
 }

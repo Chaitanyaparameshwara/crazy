@@ -42,6 +42,15 @@ public Individual getIndividualC(int id) {
 	}
 	return new Individual();
 }
+
+public Individual create(Individual i) {
+	// TODO Auto-generated method stub
+	
+li.add(i);
+return i;
+	
+	
+}
 }
 
 
