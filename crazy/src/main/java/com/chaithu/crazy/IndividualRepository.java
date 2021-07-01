@@ -23,6 +23,7 @@ public IndividualRepository()
 	li.add(i2);
 }
 
+
 public List<Individual> getIndividual() {
 	// TODO Auto-generated method stub
 	return li;
@@ -46,8 +47,11 @@ public Individual getIndividualC(int id) {
 public Individual create(Individual i) {
 	// TODO Auto-generated method stub
 	
-li.add(i);
-return i;
+	
+//	IndividualRepository in=new IndividualRepository(i);
+	
+       li.add(i);
+       return i;
 	
 	
 }
